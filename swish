@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main(){
+int INR;
+int dis;
+scanf("%d",&INR);
+int N;
+if( N == 1){
+printf("%d",INR);
+} 
+else if(N > 1 && N < 2){
+   INR =  N*10/10;
+} else if (N>=2 && N<3){
+   INR = (N*10/10)*0.1;
+}
+else {
+    INR = 0;
+}
+return 0;
+}
+
+    
+   
+    
+  
